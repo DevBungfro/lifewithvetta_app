@@ -222,16 +222,21 @@ app.post("/contact", async (req, res) => {
     return
   }
 
-  let transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: process.env.user,
-      pass: process.env.pass,
+  const transporter = nodemailer.createTransport(smtpTransport({
+    host:'mail.lifewithvetta.com',
+    secureConnection: false,
+    tls: {
+      rejectUnauthorized: false
     },
-  });
+    port: 587,
+    auth: {
+        user: process.env.user,
+        pass: process.env.pass,
+  }
+}));
 
   let info = await transporter.sendMail({
-    from: "'Life With Vetta', lifewithvetta@gmail.com",
+    from: "'Life With Vetta', vetta@lifewithvetta.com",
     to: "lifewithvetta@gmail.com",
     subject: "New Contact Entry",
     text: "",
@@ -435,8 +440,8 @@ const transporter = nodemailer.createTransport(smtpTransport({
     },
     port: 587,
     auth: {
-        user: "vetta@lifewithvetta.com",
-        pass: "Kalel123Hh",
+        user: process.env.user,
+        pass: process.env.pass,
   }
 }));
 
@@ -469,11 +474,11 @@ async function sendAffirmation(customer, session) {
     },
     port: 587,
     auth: {
-        user: "vetta@lifewithvetta.com",
-        pass: "Kalel123Hh",
+        user: process.env.user,
+        pass: process.env.pass,
   }
 }));
-
+  
 const mailOptions = {
     from:'Vetta <vetta@lifewithvetta.com>',
     to: email,
@@ -503,8 +508,8 @@ async function sendPlanner(customer, session) {
     },
     port: 587,
     auth: {
-        user: "vetta@lifewithvetta.com",
-        pass: "Kalel123Hh",
+        user: process.env.user,
+        pass: process.env.pass,
   }
 }));
 
