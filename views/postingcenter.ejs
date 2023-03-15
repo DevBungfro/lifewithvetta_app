@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="styles/global.css">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mukta:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles/homestyles.css">
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+      <script src="https://cdn.tiny.cloud/1/p3gw94ua3xjwj7kxna6syis0q6ofltn48wchzo8oh3lllzkb/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+      <script src="/js/interface.js" defer></script>
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="sidenav">
+         <a href="/interface">Home</a>
+         <a href="#">Store Products</a>
+         <a href="#">Orders</a>
+         <a href="#">Blog</a>
+         <a href="#">Subscriptions</a>
+         <a href="/postingcenter">Post</a>
+      </div>
+      <div class="container justify-content-center"
+      <div id="summernote">
+         <p>Hello Summernote</p>
+      </div>
+      <script id="scripttagsummer">
+         $(document).ready(function() {
+             $('#summernote').summernote({
+               toolbar: [
+         ['style', ['style']],
+         ['font', ['bold', 'underline', 'clear', "italic"]],
+         ['fontname', ['fontname']],
+         ['color', ['color']],
+         ['para', ['ul', 'ol', 'paragraph']],
+         ['fontsize', ['fontsize']],
+         ['table', ['table']],
+         ['insert', ['link', 'picture', 'video']],
+         ['view', ['fullscreen', 'codeview', 'help']],
+         ],
+           callbacks : {
+             onImageUpload: function(image) {
+                 const formdata = new FormData()
+         formdata.append("image", image[0])
+         fetch("https://api.imgur.com/3/image/", {
+         method: "post",
+         headers: {
+           Authorization: "Client-ID f36b17cae15ae13"
+         },
+         body: formdata
+         }).then(data => data.json()).then(data => {
+                 var image = $('<img>').attr('src', data.data.link);
+            $('#summernote').summernote("insertNode", image[0]);
+             })
+         },
+             onPaste: function (event) {
+                       var text = (event.originalEvent || event).clipboardData.getData(
+    "text/html"
+  );
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(text, "text/html");
+  var image = [...doc.querySelectorAll("img")]
+               console.log(image)
+        image.forEach((img) => {
+       fetch("https://api.imgur.com/3/image/", {
+         method: "post",
+         headers: {
+           Authorization: "Client-ID f36b17cae15ae13"
+         },
+         data: {
+           image: img.src.replace(/^data:image\/[a-z]+;base64,/, ""),
+         }
+         }).then(data => data.json()).then(data => {
+                 var image = $('<img>').attr('src', data.data.link);
+            $('#summernote').summernote("insertNode", image[0]);
+             })
+             
+           
+                  
+        })
+        }
+             }
+           
+             })
+         })
+         $('.note-editable').css('font-size','14.5px');
+         
+        
+         
+      </script> 
+      </div>
+      <!-- Page content -->
+      <input style="width: 500px; margin-left:500px;" class="form-control form-control-lg" type="text" placeholder="Title" id="title" aria-label=".form-control-lg example"
+      <div class="mb-3">
+         <label for="formFile" class="form-label">Default file input example</label>
+         <input accept="image/*" style="width: 500px; margin-left:500px; margin-bottom: 40px;" class="form-control" type="file" id="formFile">
+      </div>
+      <div class="mb-3">
+         <input style="width: 500px; margin-left:500px; margin-bottom: 40px;" class="form-control form-control-lg" type="text" placeholder="Preview Text" id="previewText" aria-label=".form-control-lg example" />
+      </div>
+      <input style="width: 500px; margin-left:500px; margin-bottom: 40px;" class="form-control form-control-lg" type="text" placeholder="Date" id="date" aria-label=".form-control-lg example" />
+      <input style="width: 500px; margin-left:500px;" class="form-control form-control-lg" type="text" placeholder="ID" id="id" aria-label=".form-control-lg example" />
+      <button onclick="POST();" style="margin-left: 650px; width: 200px" id="submit" type="submit" class="btn btn-primary">Preview</button>
+   </body>
+</html>

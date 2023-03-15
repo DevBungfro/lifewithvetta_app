@@ -1,0 +1,992 @@
+{
+   "have-passport-will-travel":{
+      "Name":"Have Passport Will Travel",
+      "FromPrice":"24.99",
+      "MainIMG":"/images/havepassport1.webp",
+      "ColSize":3,
+      "Images":[
+         {
+            "src":"/images/havepassport1.webp"
+         },
+         {
+            "src":"/images/havepassport2.webp"
+         },
+         {
+            "src":"/images/havepassport3.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "Mauve":{
+               "Price":"FromPrice",
+               "Hex":"#EEB5B5",
+               "Name":"Mauve"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Have Passport Will Travel</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>#Truestory</p><p>Have passport, will travel. Where to? Pick a time and place and let's get lost</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "adventure-awaits":{
+      "Name":"Adventure Awaits",
+      "FromPrice":"24.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/adventure1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/adventure1.webp"
+         },
+         {
+            "src":"/images/merch/adventure2.webp"
+         },
+         {
+            "src":"/images/merch/adventure3.webp"
+         },
+         {
+            "src":"/images/merch/adventure4.webp"
+         },
+         {
+            "src":"/images/merch/adventure5.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "Heather Prism Peach":{
+               "Price":"FromPrice",
+               "Hex":"rgb(227, 176, 223)",
+               "Name":"Heather Prism Peach"
+            }
+         },
+         {
+            "Athletic Heather":{
+               "Price":"FromPrice",
+               "Hex":"rgb(142, 137, 137)",
+               "Name":"Athletic Heather"
+            }
+         },
+         {
+            "storm":{
+               "Price":"FromPrice",
+               "Hex":"rgb(119, 116, 116)",
+               "Name":"storm"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Adventure Awaits</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Adventure awaits. Say it with this super cute tee.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "certified-foodie":{
+      "Name":"Certified Foodie",
+      "FromPrice":"24.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/foodie1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/foodie1.webp"
+         },
+         {
+            "src":"/images/merch/foodie2.webp"
+         },
+         {
+            "src":"/images/merch/foodie3.webp"
+         },
+         {
+            "src":"/images/merch/foodie4.webp"
+         },
+         {
+            "src":"/images/merch/foodie5.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "Military":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Military"
+            }
+         },
+         {
+            "Dark Grey":{
+               "Price":"FromPrice",
+               "Hex":"#2F2D2D",
+               "Name":"Dark Grey"
+            }
+         },
+         {
+            "Athletic Heather":{
+               "Price":"FromPrice",
+               "Hex":"rgb(142, 137, 137)",
+               "Name":"Athletic Heather"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Adventure Awaits</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Adventure awaits. Say it with this super cute tee.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "stay-strong":{
+      "Name":"Stay Strong",
+      "FromPrice":"19.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/strong1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/strong1.webp"
+         },
+         {
+            "src":"/images/merch/strong2.webp"
+         },
+         {
+            "src":"/images/merch/strong3.webp"
+         },
+         {
+            "src":"/images/merch/strong4.webp"
+         },
+         {
+            "src":"/images/merch/strong5.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "White":{
+               "Price":"FromPrice",
+               "Hex":"#FFFFF",
+               "Name":"White"
+            }
+         },
+         {
+            "Heather Prism Peach":{
+               "Price":"FromPrice",
+               "Hex":"rgb(227, 176, 223)",
+               "Name":"Heather Prism Peach"
+            }
+         },
+         {
+            "Athletic Heather":{
+               "Price":"FromPrice",
+               "Hex":"rgb(142, 137, 137)",
+               "Name":"Athletic Heather"
+            }
+         },
+         {
+            "Heather Forest":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Heather Forest"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Stay Strong</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Because we all know, being on the road as a digital nomad, or just for social media. The wifi needs to be strong. Stay strong my friend. &nbsp;Grab this super cute tee and make a subtle but cute statement. If you know you know.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "passport-gang":{
+      "Name":"Passport Gang",
+      "FromPrice":"24.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/passport1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/passport1.webp"
+         },
+         {
+            "src":"/images/merch/passport2.webp"
+         },
+         {
+            "src":"/images/merch/passport3.webp"
+         },
+         {
+            "src":"/images/merch/passport4.webp"
+         },
+         {
+            "src":"/images/merch/passport5.webp"
+         },
+         {
+            "src":"/images/merch/passport6.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "Heather Prism Peach":{
+               "Price":"FromPrice",
+               "Hex":"rgb(227, 176, 223)",
+               "Name":"Heather Prism Peach"
+            }
+         },
+         {
+            "Athletic Heather":{
+               "Price":"FromPrice",
+               "Hex":"rgb(142, 137, 137)",
+               "Name":"Athletic Heather"
+            }
+         },
+         {
+            "storm":{
+               "Price":"FromPrice",
+               "Hex":"rgb(119, 116, 116)",
+               "Name":"storm"
+            }
+         },
+         {
+            "Heather Forest":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Heather Forest"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Passport Gang</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"max-height:;line-height:23px\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Grab your passport and this super cute and comfy tee and jet off. Passport gang gang.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "will-travel-for-food":{
+      "Name":"Will Travel For Food",
+      "FromPrice":"24.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/food1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/food1.webp"
+         },
+         {
+            "src":"/images/merch/food2.webp"
+         },
+         {
+            "src":"/images/merch/food3.webp"
+         },
+         {
+            "src":"/images/merch/food4.webp"
+         },
+         {
+            "src":"/images/merch/food5.webp"
+         },
+         {
+            "src":"/images/merch/food6.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "Heather Forest":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Heather Forest"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "storm":{
+               "Price":"FromPrice",
+               "Hex":"rgb(119, 116, 116)",
+               "Name":"storm"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Will Travel For Food</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Story of our lives. Will trvael for food. Wear it proudly. Super cute, chic and honest tee. Make a statement wherever you travelled for food.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "vacation-warrior":{
+      "Name":"Vacation Warrior",
+      "FromPrice":"24.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/vacation1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/vacation1.webp"
+         },
+         {
+            "src":"/images/merch/vacation2.webp"
+         },
+         {
+            "src":"/images/merch/vacation3.webp"
+         },
+         {
+            "src":"/images/merch/vacation4.webp"
+         },
+         {
+            "src":"/images/merch/vacation5.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "White":{
+               "Price":"FromPrice",
+               "Hex":"#FFFFFF",
+               "Name":"White"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "Heather Prism Peach":{
+               "Price":"FromPrice",
+               "Hex":"rgb(227, 176, 223)",
+               "Name":"Heather Prism Peach"
+            }
+         },
+         {
+            "Athletic Heather":{
+               "Price":"FromPrice",
+               "Hex":"rgb(142, 137, 137)",
+               "Name":"Athletic Heather"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Vacation Warrior</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Because we are all vacation warriors. One flight at a time.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "wanderlust":{
+      "Name":"Wanderlust",
+      "FromPrice":"24.99",
+      "ColSize":3,
+      "MainIMG":"/images/merch/wanderlust1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/wanderlust1.webp"
+         },
+         {
+            "src":"/images/merch/wanderlust2.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Wanderlust</h1></div><div class=\"_3zErT fggS- cell\"></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Not all who wander are lost. Grab this tee to show your love for wandering and seeing the great big world.&nbsp;</p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "eat-sleep-travel-repeat":{
+      "Name":"Eat Sleep Travel Repeat",
+      "FromPrice":"24.99",
+      "ColSize":2,
+      "MainIMG":"/images/merch/eatsleep1.webp",
+      "Images":[
+         {
+            "src":"/images/merch/eatsleep1.webp"
+         },
+         {
+            "src":"/images/merch/eatsleep2.webp"
+         },
+         {
+            "src":"/images/merch/eatsleep3.webp"
+         },
+         {
+            "src":"/images/merch/eatsleep4.webp"
+         },
+         {
+            "src":"/images/merch/eatsleep5.webp"
+         },
+         {
+            "src":"/images/merch/eatsleep6.webp"
+         }
+      ],
+      "Sizes":[
+         {
+            "Small":{
+               "Price":"FromPrice",
+               "Name":"Small"
+            }
+         },
+         {
+            "Medium":{
+               "Price":"FromPrice",
+               "Name":"Medium"
+            }
+         },
+         {
+            "Large":{
+               "Price":"FromPrice",
+               "Name":"Large"
+            }
+         },
+         {
+            "XL":{
+               "Price":"FromPrice",
+               "Name":"XL"
+            }
+         },
+         {
+            "2XL":{
+               "Price":"4",
+               "Name":"2XL"
+            }
+         },
+         {
+            "3XL":{
+               "Price":"4",
+               "Name":"3XL"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "Black":{
+               "Price":"FromPrice",
+               "Hex":"#000000",
+               "Name":"Black"
+            }
+         },
+         {
+            "White":{
+               "Price":"FromPrice",
+               "Hex":"#FFFFFF",
+               "Name":"White"
+            }
+         },
+         {
+            "Navy":{
+               "Price":"FromPrice",
+               "Hex":"#000080",
+               "Name":"Navy"
+            }
+         },
+         {
+            "storm":{
+               "Price":"FromPrice",
+               "Hex":"rgb(119, 116, 116)",
+               "Name":"storm"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">Eat Sleep Travel Repeat</h1></div><div class=\"_3zErT fggS- cell\"><div class=\"_1rwRc\" data-hook=\"sku\"></div></div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Eat sleep travel repeat. Life #goals</p><p>&nbsp;</p><p>Travel shirt designed with simplicity. Adventure is waiting for you, wear this shirt before, after, or during your travel<br>This comfortable t-shirt will be your and your friends' favorite! Be simple, be different!</p><p>&nbsp;</p><p><span style=\"color:#cb2026;\">NEW COLORS COMMING SOON!</span></p></pre></div></div></section></div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors</li>\r\n\t<li>Only non-chlorine bleach</li>\r\n\t<li>Tumble dry low</li>\r\n\t<li>Medium iron</li>\r\n\t<li>Do not iron DESIGN</li>\r\n\t<li>Do not dry clean</li>\r\n</ul>\r\n</div></div></li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info</h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles</li>\r\n\t<li>Athletic Heather and Black Heather are 90/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Ash is 99/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester</li>\r\n\t<li>Alternate Heather CVC/Blend colors are 52/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton/polyester&nbsp;</li>\r\n\t<li>Side seams, retail fit</li>\r\n\t<li>Shoulder to shoulder taping</li>\r\n\t<li>Unisex sizing</li>\r\n\t<li>Tearaway label</li>\r\n</ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee</p>\r\n</div></div></li></ul></div></div></section>"
+   },
+   "all-you-need-tote-bag":{
+      "Name":"All You Need Tote Bag",
+      "FromPrice":"11.99",
+      "ColSize":1,
+      "MainIMG":"/images/merch/tote.webp",
+      "Images":[
+         
+      ],
+      "Sizes":[
+         {
+            "None":{
+               "Price":"FromPrice",
+               "Name":"None"
+            }
+         }
+      ],
+      "Colors":[
+         {
+            "None":{
+               "Price":"FromPrice",
+               "Name":"None"
+            }
+         }
+      ],
+      "description":"<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">All You Need Tote Bag<\/h1><\/div><div class=\"_3zErT fggS- cell\"><div class=\"_1rwRc\" data-hook=\"sku\"><\/div><\/div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>All you need is a passport. To see, do and feel what the world has to offer. Most places we go we need a reusable bag for groceries and more sine plastic is banned. Make shopping cute with this awesome statment tote.&nbsp;<\/p><\/pre><\/div><\/div><\/section><\/div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">PRODUCT INFO<\/h2><div data-hook=\"info-section-description\" class=\"WncCi\">I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.<\/div><\/div><\/li><\/ul><\/div><\/div><\/section>"
+   },
+   "i-am-the-carry-on---kids-tee": {
+   "Name": "I Am The Carry On Kids Tee",
+   "FromPrice": "15.99",
+   "ColSize": 2,
+   "MainIMG": "/images/merch/kids1.webp",
+   "Images": [
+     {
+       "src": "/images/merch/kids1.webp"
+     },
+     {
+       "src": "/images/merch/kids2.webp"
+     },
+     {
+       "src": "/images/merch/kids3.webp"
+     },
+     {
+       "src": "/images/merch/kids4.webp"
+     },
+     {
+       "src": "/images/merch/kids5.webp"
+     }
+   ],
+   "Sizes": [
+     {
+       "Small": {
+         "Price": "FromPrice",
+         "Name": "Small"
+       }
+     },
+     {
+       "Medium": {
+         "Price": "FromPrice",
+         "Name": "Medium"
+       }
+     },
+     {
+       "Large": {
+         "Price": "FromPrice",
+         "Name": "Large"
+       }
+     },
+     {
+       "XL": {
+         "Price": "FromPrice",
+         "Name": "XL"
+       }
+     }
+   ],
+   "Colors": [
+     {
+       "Black": {
+         "Price": "FromPrice",
+         "Hex": "#000000",
+         "Name": "Black"
+       }
+     },
+     {
+       "Navy": {
+         "Price": "FromPrice",
+         "Hex": "#000080",
+         "Name": "Navy"
+       }
+     },
+     {
+       "storm": {
+         "Price": "FromPrice",
+         "Hex": "rgb(119, 116, 116)",
+         "Name": "storm"
+       }
+     }
+   ],
+   "description": "<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">I Am The Carry On Kids Tee<\/h1><\/div><div class=\"_3zErT fggS- cell\"><\/div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>Because if you travel with kids, you know they are the carry on. The broke best friend that follows you everywhere. Say it with this tee<\/p><\/pre><\/div><\/div><\/section><\/div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions<\/h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;<\/p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors<\/li>\r\n\t<li>Only non-chlorine bleach<\/li>\r\n\t<li>Tumble dry low<\/li>\r\n\t<li>Medium iron<\/li>\r\n\t<li>Do not iron DESIGN<\/li>\r\n\t<li>Do not dry clean<\/li>\r\n<\/ul>\r\n<\/div><\/div><\/li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info<\/h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;<\/p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles<\/li>\r\n\t<li>Athletic Heather and Black Heather are 90\/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton\/polyester&nbsp;<\/li>\r\n\t<li>Ash is 99\/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton\/polyester<\/li>\r\n\t<li>Alternate Heather CVC\/Blend colors are 52\/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton\/polyester&nbsp;<\/li>\r\n\t<li>Side seams, retail fit<\/li>\r\n\t<li>Shoulder to shoulder taping<\/li>\r\n\t<li>Unisex sizing<\/li>\r\n\t<li>Tearaway label<\/li>\r\n<\/ul>\r\n<\/div><\/div><\/li><\/ul><\/div><\/div><\/section>"
+   },
+   "all-you-need-is-a-passport": {
+   "Name": "All You Need Is A Passport",
+   "FromPrice": "24.99",
+   "ColSize": 3,
+   "MainIMG": "/images/merch/allpassport1.webp",
+   "Images": [
+     {
+       "src": "/images/merch/allpassport1.webp"
+     },
+     {
+       "src": "/images/merch/allpassport2.webp"
+     }
+   ],
+   "Sizes": [
+     {
+       "Small": {
+         "Price": "FromPrice",
+         "Name": "Small"
+       }
+     },
+     {
+       "Medium": {
+         "Price": "FromPrice",
+         "Name": "Medium"
+       }
+     },
+     {
+       "Large": {
+         "Price": "FromPrice",
+         "Name": "Large"
+       }
+     },
+     {
+       "XL": {
+         "Price": "FromPrice",
+         "Name": "XL"
+       }
+     },
+     {
+       "2XL": {
+         "Price": "4",
+         "Name": "2XL"
+       }
+     },
+     {
+       "3XL": {
+         "Price": "4",
+         "Name": "3XL"
+       }
+     }
+   ],
+   "Colors": [
+     {
+       "White": {
+         "Price": "FromPrice",
+         "Hex": "#FFFFFF",
+         "Name": "White"
+       }
+     }
+   ],
+   "description": "<section class=\"_3Bc-c\"><div class=\"fggS- cell\"><h1 data-hook=\"product-title\" class=\"_2qrJF _2yxAN\">All You Need Is A Passport<\/h1><\/div><div class=\"_3zErT fggS- cell\"><\/div><div class=\"H1AvN fggS- cell\"><section data-hook=\"description-wrapper\" class=\"_2RbVQ\"><div class=\"_3nbVj\"><div class=\"_3cRjW\" data-hook=\"content-wrapper\" style=\"line-height: 23px;\"><pre data-hook=\"description\" class=\"_28cEs\"><p>All You Need Is A Passport. It's true though. A passport, carry on luggage and go.&nbsp;<\/p><\/pre><\/div><\/div><\/section><\/div><div class=\"_2-GPA fggS- cell\"><div dir=\"ltr\"><ul data-hook=\"stacked-info-section\" class=\"_3adjr\"><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Care Instructions<\/h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>&nbsp;&nbsp;&nbsp;&nbsp;<\/p>\r\n\r\n<ul>\r\n\t<li>Machine wash warm, inside out, with like colors<\/li>\r\n\t<li>Only non-chlorine bleach<\/li>\r\n\t<li>Tumble dry low<\/li>\r\n\t<li>Medium iron<\/li>\r\n\t<li>Do not iron DESIGN<\/li>\r\n\t<li>Do not dry clean<\/li>\r\n<\/ul>\r\n<\/div><\/div><\/li><li class=\"_1YFmr _7UGlX\" data-hook=\"stacked-info-item\"><div class=\"_6s2bg fggS- cell\"><h2 class=\"Text1078532389__root Text1078532389---typography-11-runningText Text1078532389---priority-7-primary s8gg2 _149OH InfoSectionTitle3095652555__root\" aria-hidden=\"false\" data-hook=\"info-section-title\">Product Info<\/h2><div data-hook=\"info-section-description\" class=\"WncCi\"><p>If you\u2019re looking for a stylish, well-fitting T-shirt, then you\u2019ve come to the right place.&nbsp;With added side seams for a quality fit, unisex sizing, shoulder taping, and 100% combed ringspun cotton, it ranks as a top favorite product. Its 4.2 ounce weight makes it an excellent choice for durability and ease of packing.&nbsp;<\/p>\r\n\r\n<ul>\r\n\t<li>4.2 oz., 100%&nbsp;airlume&nbsp;combed and ringspun cotton, 32 singles<\/li>\r\n\t<li>Athletic Heather and Black Heather are 90\/10&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton\/polyester&nbsp;<\/li>\r\n\t<li>Ash is 99\/1&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton\/polyester<\/li>\r\n\t<li>Alternate Heather CVC\/Blend colors are 52\/48&nbsp;airlume&nbsp;combed and ringspun&nbsp;cotton\/polyester&nbsp;<\/li>\r\n\t<li>Side seams, retail fit<\/li>\r\n\t<li>Shoulder to shoulder taping<\/li>\r\n\t<li>Unisex sizing<\/li>\r\n\t<li>Tearaway label<\/li>\r\n<\/ul>\r\n\r\n<p>Bella Canvas 3001 Unisex Tee<\/p>\r\n<\/div><\/div><\/li><\/ul><\/div><\/div><\/section>"
+ }
+}

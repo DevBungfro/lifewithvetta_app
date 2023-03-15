@@ -1,0 +1,614 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Ibaara Real Nova, serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+  position: relative;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.navbar {
+    padding-bottom: 40px;
+}
+
+
+.navbar-toggler{
+
+    justify-content: center
+}
+.navbar-nav {
+    gap: 40px;
+}
+
+
+
+.nav-link:hover {
+    color: #dd927c !important;
+}
+
+
+.nav-link {
+    font-size: 25px;
+    
+}
+.container-sm {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+
+
+
+#aboutcontainer {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    gap: 40px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+
+#aboutText {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+#abouttitle {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#aboutImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 50%;
+
+}
+
+#ebookcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+#econtainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 75%;
+    height: 80%;
+    background-color: #dd927c;
+    border-radius: 5px;
+}
+
+
+#ebookimage {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+#ebook {
+    height: 585px;
+    width: 550px;
+
+}
+
+#about-text {
+  width: 80%;
+}
+
+#etext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+#ebookstuff {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-family: Dancing Script, 'sans serif';
+    width: 80%;
+    height: 50%;
+    color: white;
+    font-size: 80px
+}
+
+#egraph {
+    display: flex;
+    color: white;
+    padding-inline-start: 60px;
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+
+}
+
+#ebookdirect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+#ebutton {
+    border: none;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(201,115,116,255);
+    border-radius: 5px;
+    height: 60px;
+    width: 400px;
+}
+
+#ebutton:hover {
+    cursor: pointer;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+
+
+#subscribebutton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+#subscribelist {
+    padding: 0px;
+    list-style: none;
+}
+
+#subscribelistelm {
+    display: flex;
+    padding: 10px;
+}
+
+@media (min-width: 5em) and (max-width: 50em) {
+
+    #name {
+      font-size: 1.2em;
+    }
+
+  
+   #mc_embed_signup {
+      margin-left: 50em !important;
+    }
+
+  #cart-symbol {
+  padding-inline-start: 0em !important;
+}
+
+  .pagination {
+    white-space: nowrap;
+    gap: 8em;
+    
+  }
+
+
+  #shirtsBtn {
+    width: 100%;
+  }
+
+  #interfaceWelcome {
+          margin-left; 1000px !important;
+  }
+
+    #shirtForm {
+    margin-left: 120px !important;
+      width: 50%;
+  }
+
+  #shirtForm2 {
+    margin-left: 120px !important;
+      width: 50%;
+    margin-bottom: 3em;
+  }
+
+  
+
+  #interface-form {
+    width: 400%;
+  }
+
+
+
+  #contactUs {
+    width: 100%;
+  }
+  
+    #travel {
+      padding-inline-start: 1.6em;
+      font-size: 3em;
+    }
+    #post-button {
+        
+        width: 1em
+    }
+
+    html, body {
+      overflow-x: hidden;
+    }
+
+    body{
+      position: realative;
+    }
+
+    #downloadbtn {
+        margin-top: 5em;
+        width: 8em;
+        height: 1.5em;
+    }
+
+    #post-text {
+      margin-left: 0;
+      word-break: break-word;
+      width: 100%;
+    }
+
+    #title-post {
+      word-break: break-word;
+      width: 100%;
+      font-size: 5em;
+    }
+
+    #containpgraph {
+        padding-inline-start: 0;
+    }
+  }
+
+  @media (min-width: 50em) and (max-width: 150em) {
+    #travel {
+      font-size: 4em;
+      padding-inline-start: 2.8em;
+        
+    }
+
+    .pagination {
+    gap: 60em;
+    
+  }
+
+     #post-text {
+      margin-left: 4em !important;
+    }
+
+     #shirtsBtn {
+    width: 50%;
+  }
+
+        #shirtForm {
+    margin-left: 13em;
+      width: 50%;
+  }
+
+  #shirtForm2 {
+    margin-left: 15em;
+    margin-bottom: 3em;
+    width: 50%;
+  }
+
+    #contactUs {
+    width: 40%;
+  }
+
+    
+
+       #name {
+      font-size: 5em;
+    }
+
+    #ebookimg {
+      height: 40em;
+      width: 40em;
+    }
+  
+
+    #post-button {
+        height: 5%;
+    }
+
+    #downloadbtn {
+        margin-top: 0em;
+        height: 1.5em;
+        width: 8em;
+    }
+
+    #containpgraph {
+        padding-inline-start: 1.2em;
+    }
+  }
+
+
+  @media (min-width: 5em) and (max-width: 70em) {
+    #formcontainer {
+        width: 20em;
+    }
+
+
+    
+   
+    
+   
+        #about-content {
+    font-size: 2em;
+  }
+    
+}
+
+
+@media (min-width: 90em) and (max-width: 150em) {
+    #formcontainer {
+        width: 40em;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+   #name {
+      font-size: 5em;
+    }
+
+  #shirtForm {
+    margin-left: 7em;
+    width: 50%;
+  }
+
+    #shirtsBtn {
+    width: 50%;
+  }
+
+  #shirtForm2 {
+    margin-left: 8em;
+    width: 50%;
+  }
+
+    #contactUs {
+    width: 70%;
+  }
+
+
+
+  
+}
+
+
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+  #post-text {
+    margin-left: 10em;
+    word-break: break-word;
+    width: 100%;
+  }
+
+   html, body {
+      overflow-x: hidden;
+    }
+
+    body{
+      position: realative;
+    }
+
+    #name {
+      font-size: 5em;
+    }
+  
+
+    #title-post {
+      word-break: break-word;
+      width: 100%;
+      font-size: 5em;
+    }
+}
+
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1920px) {
+  #coaching {
+    width: 2000px
+  }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      #about-content {
+    font-size: 40em;
+  }
+
+  
+
+}
+
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+#Safety {
+  cursor: pointer;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {display: flex; justify-content: center; margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  height: 500px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    heightL: 100px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+
+.note-editor {
+  margin-left: 250px
+}
+
+
+#coaching4:hover {
+  cursor: pointer;
+  
+}
+
+#coachingmg {
+  cursour: pointer;
+}
+
+
+ #cart-symbol:hover {
+  cursor: pointer;
+}
+
+
+#img-top:hover {
+
+  cursor: pointer;
+  
+}
+
+.cards:hover {
+  cursor: pointer;
+}
+
+#shirtForm {
+  margin-left: 320px;
+}
+
+#shirtForm2 {
+  margin-left: 320px;
+}
+
+#purchaseBtn {
+  background-color: black;
+  border-radius: 10px;
+  width: 100%
+}
+
+.note-editor {}

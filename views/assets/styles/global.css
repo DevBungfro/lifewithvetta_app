@@ -1,0 +1,106 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+
+
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #447c8c;
+    border-radius: 10px;
+}
+
+#img-fluid {
+    object-fit: contain;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	background-color: #111;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 0px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	font-size: 25px;
+  height: 100px;
+	text-decoration: none;
+	color: black;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px
+}
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+
+.checkoutbtn{
+  height: 60px;
+  width: 100px;
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+  title-image {
+    height: 50px !important;
+}
+  }
+
+
+
+
+
+.col-md-1-5 { width: 12,5%; } 
+.col-md-2-5 { width: 20,83333%; } 
+.col-md-3-5 { width: 29,16667%; } 
+.col-md-4-5 { width: 37,5%; } 
+.col-md-5-5 { width: 45,83333%; } 
+.col-md-6-5 { width: 54,16667%; } 
+.col-md-7-5 { width: 62,5%; } 
+.col-md-8-5 { width: 70,83333%; } 
+.col-md-9-5 { width: 79,16667%; } 
+.col-md-10-5 { width: 87,5%; } 
+.col-md-11-5 { width: 95,8333%; } 
+
+#clickimg {
+  border: 2px solid #555;
+}
+
+img.active {
+  border: 4px solid #555 !important;
+}

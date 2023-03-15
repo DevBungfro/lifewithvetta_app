@@ -1,0 +1,269 @@
+ <html lang="en">
+    
+ <head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+	   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="/styles/global.css">
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mukta:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+     <script src="./functionality/home.js" defer></script>
+     <link rel="stylesheet" href="styles/homestyles.css">
+<script src="/js/store.legacy.min.js"></script>
+   <link rel="stylesheet" href="/styles/ebook.css"> 
+
+   <script>
+     function NewTab5() {
+            window.open(
+              "/cart", "_blank");
+        }
+    function addToCart() {
+      let cartTemplate = {
+        name: "eBook",
+        id: "ebook",
+        image: "/images/Digital Download! (1).png",
+        size: "None",
+        price: 9.99
+      }
+      
+      let storage = sessionStorage.getItem("cart")
+      let newStorage
+
+      console.log(storage)
+       if (storage == "" || storage == null) {
+          sessionStorage.setItem('cart', JSON.stringify([]))
+         newStorage = JSON.parse(sessionStorage.getItem("cart"))
+      } else {
+         newStorage = JSON.parse(storage)
+      }
+      
+      
+      newStorage.push(cartTemplate)
+      sessionStorage.setItem('cart', JSON.stringify(newStorage))
+      alert("Successfully added to cart!")
+    }
+
+       const allClickButtons = [...document.querySelectorAll("#clickimg")]
+console.log(allClickButtons)
+       allClickButtons.forEach(button => {
+         button.onclick = function clicked(e) {
+            allClickButtons.forEach(button => {
+            if (button.classList.contains("active")) {
+              button.classList.remove("active")
+            }
+          })
+          button.classList.add("active")
+
+         
+
+         }
+       })
+
+       function changeImage(image) {
+         const bigimage = document.getElementById("ebookimg")
+
+         bigimage.src = image
+         
+       }
+       
+</script> 
+
+
+     <link rel="icon" type="image/x-icon" href="/images/icon.png">
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '663029448500427');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=663029448500427&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</head>
+     <section id="header">
+         <div id="name">CAVETTA JOHNSON</div>
+         <div style="padding-bottom: 20px;" class="container-sm text-center">Living life with intention. Live, don't just exist.</div>
+     </section>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" id="home" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/eBook">eBook</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/coaching">1 On 1 Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/merchandise">Merchandise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+              <li id="cart-symbol" style="padding-inline-start: 60px;" class="nav-item">
+                <svg onclick="NewTab5()" style="" xmlns="http://www.w3.org/2000/svg" width="40" height="55" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+</svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+
+
+    
+    </nav>
+
+
+    
+    
+   </div>
+
+
+   <div style="padding-top: 30px ;"class="container-fluid text-center">
+        <img id="ebookimg" src="./images/Digital Download!.png" class="img-fluid" alt="">
+     </div>
+
+   <div style="padding-top: 20px" class="container d-flex justify-content-center">
+     <div style="gap: 5px;" class="row d-flex justify-content-center">
+   <div onclick="changeImage('/images/ebook-1.webp');" class="col-2"><img id="clickimg" style="cursor: pointer;  height: 50px; width: 50px;" src="/images/ebook-1.webp"/> </div>
+   <div onclick="changeImage('/images/ebook-2.webp');" onclick="changeImage('/images/ebook-2.webp');" class="col-2"><img  id="clickimg" style="cursor: pointer;  height: 50px; width: 50px;" src="/images/ebook-2.webp"/></div>
+   <div onclick="changeImage('/images/ebook-3.webp');" class="col-2"><img id="clickimg" style="cursor: pointer;  height: 50px; width: 50px;" src="/images/ebook-3.webp"/></div>
+   <div onclick="changeImage('/images/ebook-4.webp');" class="col-2"><img style="cursor: pointer; height: 50px; width: 50px;"  id="clickimg"  src="/images/ebook-4.webp"/></div>
+ </div>
+   </div>
+
+
+
+   <div class="container d-flex justify-content-center">
+     <div class="row d-flex justify-content-center">
+   <div style="padding-top: 30px" class="col-18" id="changecol">
+
+     <p style="font-size: 30px;">So you want to travel the world eBook</p>
+     <p>
+ So you want to travel the world. Read my new ebook on how I got here traveling the world as a Location Independent Professional with kids in tow and see how you can too. I share my story, tips, and how-to, including resources to help you on your journey. I am a single mom to two boys traveling the world on my terms. I am not wealthy, I do not have millions in the bank but I am making it happen without stress or worry. I choose to live life, and not just exist. I choose to defy what has been ingrained in us - grow up, get an education, work, pay bills and die. I wanted out of that crazy narrative so I clawed my way out, out to a life worth living.
+
+  
+
+ See how I did it and how you can too.</p>
+
+ <p style="font-family: 'Caveat', cursive; font-size: 30px; id="ebookinfotitle">Additional Information</p>
+
+
+     
+ <p>All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. </p> 
+
+ <p style="font-family: 'Caveat', cursive; font-size: 30px; id="ebookinfotitle">Technical information</p>
+
+     
+ You will need an e-reader on your device to open and read the book. If you are new to digital books and have never downloaded or read on your device you may need to download the e-reader. <br></br>
+
+ For Apple products, download Apple books. You are able to read ebooks through this 
+ Android users can download Google Books to open and read ebooks. 
+
+114	+ Visit your respective app store to download the free e-readers before downloading the ebook. The ebook will automatically open in the e-reader as it detects that it is a book. <br></br>
+
+ <p><b class="important">To open the file</b>, download the zip folder and extract the documents. For Apple devices, you can simply double-click to extract the folder. Once the folder is extracted you can open the files included.  How to unzip files in Windows Right-click the ZIP file. In the drop-down menu, click "Extract All…" The zip wizard will appear.  If you want to unzip the files to a different folder, click "Browse…" and choose a location Click "Extract" and the files will be unzipped and copied to the folder you chose.
+   <div style="width: 100%;"class="col-4 text-center">
+     <p style="padding-bottom: 20px; padding-top: 30px;" id="wasprice"><strike>$29.99</strike> $$9.99</p>
+              <button style="border: none;
+             color: white;
+             font-size: 20px;
+            background-color: #de8e7a;
+             width: 50%;" onclick="addToCart();">Add To Cart</button>
+
+          <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+  <div class="container d-flex justify-content-center">
+<div id="mc_embed_signup">
+<form action="https://lifewithvetta.us17.list-manage.com/subscribe/post?u=00185bf2a1de8cb288591510c&amp;id=6538edd833" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_00185bf2a1de8cb288591510c_6538edd833" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <p class="brandingLogo"><a href="http://eepurl.com/h1fd1X" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+</div>
+
+
+     
+
+ <script>
+        window.mobileCheck = function() {
+  let check = false;
+  (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+  return check;
+};
+
+   if (window.mobileCheck()) {
+     const col = document.getElementById("changecol")
+     col.classList.remove("col-18")
+      col.classList.add("col-3")
+   }
+    </script>
+ </body>
+
+ </html>
