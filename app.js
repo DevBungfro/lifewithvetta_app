@@ -60,6 +60,23 @@ app.get("/ebook", (req, res) => {
   res.render("ebook.ejs")
 })
 
+app.get("/ads.txt", (req, res) => {
+
+  const options = {
+        root: path.join(__dirname)
+    };
+ 
+    const fileName = 'ads.txt';
+    res.sendFile(fileName, options, function (err) {
+        if (err) {
+            next(err);
+        } else {
+            console.log('Sent:', fileName);
+            next();
+        }
+    });
+})
+
 app.get("/affirmation", (req, res) => {
 
   res.render("affirmation.ejs")
