@@ -7,7 +7,7 @@ const fs = require('fs');
 const shirts = require("./shirts.json")
 const smtpTransport = require('nodemailer-smtp-transport');
 
-const api_url = "https://lifewithvettaapi.devbungfro.repl.co/"
+const api_url = "https://api.lifewithvetta.com/"
 
 const bodyParserErrorHandler = require('express-body-parser-error-handler')
 
@@ -110,7 +110,7 @@ app.get("/register", (req, res) => {
 app.get("/email-verify", async (req, res) => {
   res.send("Email Verified, you may now login.")
 
-  const response = await fetch(`https://lifewithvettaapi.devbungfro.repl.co/account/verify?token=${req.query.token}`, {
+  const response = await fetch(`https://api.lifewithvetta.com/account/verify?token=${req.query.token}`, {
     method: 'post',
     headers: { 'Content-Type': 'application/json' }
   });
@@ -139,7 +139,7 @@ app.post("/register", async (req, res) => {
     text: `Hello! This is an automated email from Life With Vetta to confirm that you own this email! Please click this link: ${link} \n to confirm that you own this email, if you didn't signup for our site. Please ignore this email. Thank you!`,
   })
 
-  const response = await fetch(`https://lifewithvettaapi.devbungfro.repl.co/account/create?token=${token}`, {
+  const response = await fetch(`https://api.lifewithvetta.com/account/create?token=${token}`, {
     method: 'post',
     body: JSON.stringify(req.body),
     headers: { 'Content-Type': 'application/json' }
@@ -152,7 +152,7 @@ app.post("/register", async (req, res) => {
 })
 
 app.post("/login", async (req, res) => {
-  const response = await fetch(`https://lifewithvettaapi.devbungfro.repl.co/account/login?email=${req.body.email}&password=${req.body.password}`, {
+  const response = await fetch(`https://api.lifewithvetta.com/account/login?email=${req.body.email}&password=${req.body.password}`, {
     method: 'get',
     headers: { 'Content-Type': 'application/json' }
   });
@@ -278,7 +278,7 @@ app.post("/interface", async (req, res) => {
   params.append("date", req.body.date)
   params.append("previewText", req.body.previewText)
 
-  const response = await fetch(`https://lifewithvettaapi.devbungfro.repl.co/post/create`, {
+  const response = await fetch(`https://api.lifewithvetta.com/post/create`, {
     method: 'post',
     body: params,
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
@@ -288,7 +288,7 @@ app.post("/interface", async (req, res) => {
 })
 
 app.post("/interface/edit", async (req, res) => {
-  const response = await fetch('https://lifewithvettaapi.devbungfro.repl.co/post/edit', {
+  const response = await fetch('https://api.lifewithvetta.com/post/edit', {
     method: 'post',
     body: JSON.stringify(req.body),
     headers: { 'Content-Type': 'application/json' }
@@ -299,7 +299,7 @@ app.post("/interface/edit", async (req, res) => {
 })
 
 app.post("/interface/delete", async (req, res) => {
-  const response = await fetch('https://lifewithvettaapi.devbungfro.repl.co/post/delete', {
+  const response = await fetch('https://api.lifewithvetta.com/post/delete', {
     method: 'post',
     body: JSON.stringify(req.body),
     headers: { 'Content-Type': 'application/json' }
